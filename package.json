@@ -23,6 +23,8 @@
     "@ng-bootstrap/ng-bootstrap": "1.0.0-beta.4",
     "bootstrap": "4.0.0-beta",
     "core-js": "^2.4.1",
+    "handlebars": "^4.0.11",
+    "hoek": "^5.0.3",
     "jquery": "3.2.1",
     "jw-bootstrap-switch-ng2": "1.0.3",
     "ng2-nouislider": "1.6.1",

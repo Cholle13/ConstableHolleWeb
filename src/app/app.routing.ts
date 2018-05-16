@@ -9,7 +9,6 @@ import { SignupComponent } from './signup/signup.component';
 import { LandingComponent } from './landing/landing.component';
 import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
 import {CommunityComponent} from './community/community.component';
-import {CarouselComponent} from './community/community-carousel/carousel.component';
 
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
