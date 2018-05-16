@@ -14,7 +14,7 @@ export class CommunityComponent implements OnInit {
   }
 
     scroll(el) {
-        el.scrollIntoView({behavior: "smooth", inline: "nearest"});
+        el.scrollIntoView({behavior: "smooth"});
     }
 
 }
