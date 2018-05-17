@@ -10,7 +10,7 @@ import { LandingComponent } from './landing/landing.component';
 import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
 import {CommunityComponent} from './community/community.component';
 
-const routes: Routes =[
+const routes: Routes = [
     { path: 'home',             component: HomeComponent },
     { path: 'community',        component: CommunityComponent },
     { path: 'user-profile',     component: ProfileComponent },
