@@ -14,6 +14,10 @@ import { FooterComponent } from './shared/footer/footer.component';
 
 import { HomeModule } from './home/home.module';
 import {CommunityComponent} from './community/community.component';
+import { AboutComponent } from './about/about.component';
+import { InformationComponent } from './information/information.component';
+import { CarouselComponent } from './community/carousel/carousel.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import {CommunityComponent} from './community/community.component';
     CommunityComponent,
     ProfileComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    InformationComponent,
+    CarouselComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
