@@ -18,6 +18,12 @@ import { AboutComponent } from './about/about.component';
 import { InformationComponent } from './information/information.component';
 import { CarouselComponent } from './community/carousel/carousel.component';
 import { ContactComponent } from './contact/contact.component';
+import { KenComponent } from './about/ken/ken.component';
+import { BradComponent } from './about/brad/brad.component';
+import { CivilComponent } from './about/civil/civil.component';
+import { PatrolComponent } from './about/patrol/patrol.component';
+import { AccomplishmentsComponent } from './about/accomplishments/accomplishments.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +37,13 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     InformationComponent,
     CarouselComponent,
-    ContactComponent
+    ContactComponent,
+    KenComponent,
+    BradComponent,
+    CivilComponent,
+    PatrolComponent,
+    AccomplishmentsComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
