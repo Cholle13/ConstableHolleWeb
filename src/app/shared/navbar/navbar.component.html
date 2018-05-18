@@ -25,10 +25,16 @@
                         Information
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/about']" rel="tooltip" title="Learn more about us" data-placement="bottom">
-                        About
-                    </a>
+                <li class="nav-item ">
+                    <div ngbDropdown class="d-inline-block dropdown">
+                        <a class="nav-link" id="dropdownAbout" style="cursor: pointer;" ngbDropdownToggle>About</a>
+                        <div ngbDropdownMenu aria-labelledby="dropdownAbout" class="dropdown-primary">
+                            <a class="dropdown-item" [routerLink]="['/about']" rel="tooltip" title="Learn more about us" data-placement="bottom">Constable Holle</a>
+                            <a class="dropdown-item">Deputy Kuecker</a>
+                            <a class="dropdown-item">Civil Division</a>
+                            <a class="dropdown-item">Patrol Division</a>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-link">
                     <a [routerLink]="['/contact']" class="btn btn-outline-success btn-sm btn-round" rel="tooltip" style="color:#28a745" title="Contact us">Contact</a>

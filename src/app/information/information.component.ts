@@ -12,4 +12,8 @@ export class InformationComponent implements OnInit {
   ngOnInit() {
   }
 
+    scroll(el) {
+        el.scrollIntoView({behavior: "smooth"});
+    }
+
 }
