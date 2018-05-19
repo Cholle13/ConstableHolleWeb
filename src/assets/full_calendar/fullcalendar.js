@@ -13,9 +13,7 @@
 (function($, undefined) {
 
 
-;;
-
-var defaults = {
+    var defaults = {
 
 	// display
 	defaultView: 'month',
