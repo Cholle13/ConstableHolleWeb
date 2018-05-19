@@ -442,7 +442,8 @@
 
     .dropdown.show .dropdown-menu,
     .dropdown .dropdown-menu{
-        background-color: transparent;
+        background-color: whitesmoke;
+        height: auto;
         border: 0;
         transition: none;
         -webkit-box-shadow: none;
